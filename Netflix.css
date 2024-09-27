@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: serif;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'poppins';
+}
+body{
+    background-image: url(/bg\ netflix.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size:cover ;
+    
+}
+/*Netflix image navbar*/
+.logo img{
+    padding-left: 100px;
+    padding-top: 65px;
+   width: 50em;
+   
+}
+/*Navigation bar*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+/* Login button */
+.login{
+    margin-top:55px ;
+    margin-right: 35px;
+}
+.login a{
+    font-size: 50px;
+    border: 7px solid #f70707;
+    color: #a9a6a6;
+    border-radius: 9em;
+    padding: 15px 30px;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 10px 15px 20px rgba(255, 0, 0, 0.638);
+}
+.login a:hover{
+font-size: 55px;
+    color: #fff;
+    transition: 0.2s;
+    box-shadow: none;
+}
+/*container*/
+.container{
+    margin-top: 30rem;
+    text-align: center;
+    color: #fff;
+}
+.container h1{
+    font-size: 150px;
+}
+.container h5{
+    color: #fffafac1;
+    margin-top: 105px;
+    font-size: 60px;
+}
+.container h5 a{
+    color: rgb(255, 0, 0);
+    text-decoration: underline;
+}
+.container h5 a:hover{
+    color: #d80303;
+}
