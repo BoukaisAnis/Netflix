@@ -17,9 +17,9 @@ body{
 }
 /*Netflix image navbar*/
 .logo img{
-    padding-left: 100px;
-    padding-top: 65px;
-   width: 50em;
+    padding-left: 2rem;
+    padding-top: 15px;
+    width: 10rem;
    
 }
 /*Navigation bar*/
@@ -29,38 +29,39 @@ body{
 }
 /* Login button */
 .login{
-    margin-top:55px ;
-    margin-right: 35px;
+    margin-top:2rem ;
+    margin-right: 15px;
+    
 }
 .login a{
-    font-size: 50px;
-    border: 7px solid #f70707;
+    font-size: 15px;
+    border: 1px solid #f70707;
     color: #a9a6a6;
     border-radius: 9em;
     padding: 15px 30px;
     text-decoration: none;
     transition: 0.3s;
-    box-shadow: 10px 15px 20px rgba(255, 0, 0, 0.638);
+    box-shadow: 0px 0px 20px rgb(255, 0, 0);
 }
 .login a:hover{
-font-size: 55px;
+   font-size: 17px;
     color: #fff;
     transition: 0.2s;
     box-shadow: none;
 }
 /*container*/
 .container{
-    margin-top: 30rem;
+    margin-top: 10rem;
     text-align: center;
     color: #fff;
 }
 .container h1{
-    font-size: 150px;
+    font-size: 40px;
 }
 .container h5{
     color: #fffafac1;
-    margin-top: 105px;
-    font-size: 60px;
+    margin-top: 20px;
+    font-size: 10px;
 }
 .container h5 a{
     color: rgb(255, 0, 0);
