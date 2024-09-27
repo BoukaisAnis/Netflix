@@ -69,3 +69,55 @@ font-size: 55px;
 .container h5 a:hover{
     color: #d80303;
 }
+@media screen and (max-width: 800px) {
+    body{
+       
+     }
+     /*Netflix image navbar*/
+ .logo img{
+     padding-left: 20px;
+     padding-top: 30px;
+    width: 9em;
+ }
+ /* Login button */
+.login{
+    margin-top:35px ;
+    margin-right: 0px;
+}
+.login a{
+    background-color: rgba(32, 1, 1, 0.598);
+    font-size: 10px;
+    border: 1px solid #f70707;
+    color: #a9a6a6;
+    border-radius: 15px;
+    padding: 10px 10px;
+    text-decoration: none;
+    transition: 0.3s;
+    box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.638);
+}
+.login a:hover{
+   font-size: 15px;
+   transition: none; 
+   border: 1px solid #f70707;
+   color: #a9a6a6;
+   border-radius: 15px;
+   padding: 10px 10px;
+   text-decoration: none;
+   transition: 0.3s;
+   box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.638);  
+}
+/*container*/
+.container{
+    margin-top: 200px;
+    text-align: center;
+    color: #fff;
+}
+.container h1{
+    font-size: 30px;
+}
+.container h5{
+    color: #fffafac1;
+    margin-top: 15px;
+    font-size: 10px;
+}
+}
